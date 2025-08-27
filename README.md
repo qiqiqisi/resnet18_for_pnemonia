@@ -5,9 +5,13 @@ let me tell you how to use it
 https://data.mendeley.com/datasets/rscbjbr9sj/2
 ## 2. change the path
 you should find the code
-'''
+
+
+```PY
 base_path = r"C:\Users\Administrator\Desktop\test_for_pneumonia\ChestXRay2017\chest_xray"
-'''
+```
+
+
 and change it to your path
 ## 3. make sure you use gpu, cause it is hard to run with cpu
 ## 4. you can use anaconda to get the environment
