@@ -1,4 +1,5 @@
 # resnet18_for_pnemonia
+PYTORCH!!!!
 it is used to use resnet to train
 
 let me tell you how to use it
