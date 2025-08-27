@@ -1,5 +1,6 @@
 # resnet18_for_pnemonia
 it is used to use resnet to train
+
 let me tell you how to use it
 ## 1. download the dataset
 https://data.mendeley.com/datasets/rscbjbr9sj/2
