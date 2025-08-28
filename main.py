@@ -29,7 +29,7 @@ class BasicBlock(nn.Module):
             nn.BatchNorm2d(out_channels * self.expansion)
         )
 
-        # 快捷连接 (Shortcut / Identity)
+        # 快捷连接
         self.shortcut = nn.Sequential()
 
         # 如果输入和输出的维度不同（通道数或尺寸），则需要对快捷连接进行变换以匹配维度
@@ -205,4 +205,5 @@ if __name__ == "__main__":
     d2l.train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 
     print("\n--- 训练完成 ---")
+
     plt.show()
